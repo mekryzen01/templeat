@@ -1,0 +1,152 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Kanit", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row; /* Change direction to row */
+  height: calc(100vh); /* Subtracting the navbar height */
+}
+#toggleSidebar {
+  order: -1; /* ย้ายปุ่มไปทางซ้ายสุด */
+}
+
+.sidebar,
+.content-wrapper {
+  transition: all 0.3s ease; /* Adjust the duration (0.3s) as needed */
+}
+.navbar {
+  width: 100%;
+  height: 55px; /* Example height for navbar */
+  color: white;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sidebar {
+  width: 222px;
+  background-color: #222d32; /* AdminLTE sidebar color */
+  color: white;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  flex: 1;
+  background-color: #f4f6f9;
+}
+
+.content-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #dee2e6; /* Light grey border */
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Scroll if content is too long */
+}
+.sidebar-collapsed {
+  width: 60px; /* or whatever width you want when collapsed */
+  overflow-x: hidden; /* hide overflowing content */
+}
+
+.content-expanded {
+  flex: 1;
+  width: calc(
+    100% - 60px
+  ); /* adjust this value based on your collapsed sidebar width */
+}
+
+.sidebar-collapsed .nav-link {
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sidebar-collapsed .nav-link i {
+  margin-right: 0;
+}
+
+.sidebar-collapsed .nav-link .fas.fa-chevron-down {
+  display: none;
+}
+
+.sidebar-collapsed .nav-link:not(.sub) {
+  justify-content: center;
+}
+
+.sidebar-collapsed .nav-item .collapse {
+  display: none !important;
+}
+.box {
+  border: 1px solid #ccc; /* เส้นขอบกรอบ */
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px; /* ระยะห่างภายในกรอบ */
+}
+.brand-image {
+  width: 34px; /* Adjust based on your logo's dimensions */
+  height: 34px;
+  margin-right: 10px; /* Space between the logo and the text */
+  border-radius: 50%; /* Makes the image circular */
+}
+.brand-text {
+  font-size: 20px;
+  font-weight: 300; /* Light font weight */
+}
+.brand-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #343a40; /* Dark grey background */
+  color: white;
+  text-decoration: none;
+}
+.brand-link:hover {
+  background-color: #23272b; /* Slightly darker grey */
+  text-decoration: none; /* Remove underline on hover */
+  color: white;
+}
+.spani {
+  margin-right: 10px; /* Space between the logo and the text */
+}
+
+.sidebar-collapsed .menu-text {
+  display: none;
+}
+#borderradied {
+  border-radius: 10px 10px 10px 10px;
+}
+.breadcrumb {
+  display: inline-block;
+  padding: 8px 15px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 0.25rem;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding: 0 5px;
+  color: #6c757d; /* Grey color for the separator */
+}
+
+.breadcrumb-item a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+}
+
+.breadcrumb-item.active a {
+  color: #6c757d; /* Grey color for the active item */
+}
