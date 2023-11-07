@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-secondary ">
+<nav class="navbar navbar-expand-lg" id="bg">
     <ul class="navbar-nav">
         <li class="nav-item"><button id="toggleSidebar" class="btn">
                 <i class="fas fa-bars" style="font-size: 20px;"></i>

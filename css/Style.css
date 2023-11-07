@@ -88,8 +88,8 @@ html {
 }
 .box {
   border: 1px solid #ccc; /* เส้นขอบกรอบ */
-  border-radius: 10px 10px 10px 10px;
-  padding: 10px; /* ระยะห่างภายในกรอบ */
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px; /* ระยะห่างภายในกรอบ */
 }
 .brand-image {
   width: 34px; /* Adjust based on your logo's dimensions */
@@ -121,6 +121,9 @@ html {
 .sidebar-collapsed .menu-text {
   display: none;
 }
+.menu-text{
+  color: #000;
+}
 #borderradied {
   border-radius: 10px 10px 10px 10px;
 }
@@ -149,4 +152,27 @@ html {
 
 .breadcrumb-item.active a {
   color: #6c757d; /* Grey color for the active item */
+}
+.box {
+  background-color: #f8ed7b;
+}
+#login{
+  background-color: #BB6AFB;
+  color: #fcfafa;
+}
+#nav{
+  background-color: #FFEE32;
+}
+#box1{
+  background-color: #FFEE32;
+ width: auto;
+ height: 100%;
+}
+#Forgotyourpassword{
+  background-color: #E5383B;
+  color: #fcf6f6;
+}
+#bg{
+  background-color: #FFEE32;
+  color: #000;
 }

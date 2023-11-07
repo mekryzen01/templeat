@@ -1,4 +1,4 @@
-<?php $baseUrl = "http://localhost/importexcel" ?>
+<?php $baseUrl = "http://localhost/templeat" ?>
 <!DOCTYPE html>
 <html lang="en">
 
