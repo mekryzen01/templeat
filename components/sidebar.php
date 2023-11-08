@@ -17,13 +17,13 @@
 
         </li>
         <li class="nav-item">
-            <a class="nav-link d-inline-block" style="font-size: 20px;" href="http://localhost/importexcel/pages/student_classroom/year">
-                <i class="fa-solid fa-calendar-days spani"></i><span class="menu-text">เทอม/ปี</span>
+            <a class="nav-link d-inline-block" style="font-size: 20px;" href="./Activity_pictures.php">
+                <i class="fa-solid fa-calendar-days spani"></i><span class="menu-text">ภาพกิจกรรม</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link d-inline-block" style="font-size: 20px;" href="http://localhost/importexcel/pages/student_classroom/report_check">
-            <i class="fa-solid fa-file spani" ></i><span class="menu-text">รายงาน</span>
+            <a class="nav-link d-inline-block" style="font-size: 20px;" href="./personnel.php">
+            <i class="fa-solid fa-file spani" ></i><span class="menu-text">บุคลากร</span>
             </a>
         </li>
         <!-- <li class="nav-item">
